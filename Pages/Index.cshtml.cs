@@ -8,6 +8,7 @@ namespace GitTest2.Pages
 
         private readonly string username = "myUsername";
         private readonly string password = "myPassword";
+        string connectionString = "Data Source=localhost;Database=secretDatabase;Integrated Security=false;User ID=administrator;Password=secretpassword;"
 
         private readonly ILogger<IndexModel> _logger;
 
